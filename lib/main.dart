@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgetdemo/config/handle_error.dart';
+import 'package:widgetdemo/personal_message.dart';
 
 Future<void> main() async{
 
@@ -25,6 +26,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.blue
+      ),
+      home: const PersonalMessage(),
+    );
   }
 }
