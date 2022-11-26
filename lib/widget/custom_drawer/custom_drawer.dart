@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:widgetdemo/utils/Image_utils.dart';
-import '../../generated/l10n.dart';
+
+// NOTE: Relative paths are undesirable to use (my personal opinion).
+// It's nicer to see absolute paths.
+import 'package:widgetdemo/generated/l10n.dart';
+
 import 'drawer_item.dart';
 
 //  自定义抽屉
-class CustomDrawer extends StatefulWidget {
+// NOTE: I stopped using Stateful widgets because they force
+// to implement the update logic directly into widgets, this worsens readability.
+// By the way, there is no setState update here. So the widget can be safely converted to Stateless.
+class CustomDrawer extends StatelessWidget {
   const CustomDrawer({Key? key}) : super(key: key);
-
-  @override
-  State<CustomDrawer> createState() => _CustomDrawerState();
-}
-
-class _CustomDrawerState extends State<CustomDrawer> {
 
   @override
   Widget build(BuildContext context) {

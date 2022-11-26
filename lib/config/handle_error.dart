@@ -2,6 +2,9 @@ import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:widgetdemo/config/app_config.dart';
 
+
+// NOTE: A monstrously powerful solution. 
+//TODO: https://pub.dev/packages/sentry
 //  捕捉全局异常
 void handleError(void Function() body){
 

@@ -1,7 +1,13 @@
+// NOTE: Unused imports do not affect the operation of the program, but for cleanliness it is better to remove them.
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+// NOTE: TODO: https://pub.dev/packages/flutter_gen
+// This code is an attempt to do something that has been implemented for a long time.
+// There are tools that simplify working with assets at times, and with
+// strict typing, you will be able to find errors when working with assets at the compilation stage.
+// So you will never lose the asset.
 class ImageUtils{
 
   ///   获取 image path
