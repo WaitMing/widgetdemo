@@ -1,6 +1,10 @@
+
 # widgetdemo
 
 A new Flutter project.
+
+NOTE: It would be nice to describe the project in a README.
+NOTE: If you do not use tests, then you can delete the test folder.
 
 ## Getting Started
 
