@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:widgetdemo/config/handle_error.dart';
+import 'package:widgetdemo/core/radar_chart/example/radar_chart_example.dart';
 import 'package:widgetdemo/generated/l10n.dart';
-import 'package:widgetdemo/personal_message.dart';
 import 'package:widgetdemo/provider/language_provider.dart';
 import 'package:widgetdemo/provider/theme_color_provider.dart';
 
@@ -31,7 +30,7 @@ class MyApp extends StatelessWidget {
             ],
             locale: languageProvider.value,
             supportedLocales: S.delegate.supportedLocales,
-            home: const PersonalMessage(),
+            home: RadarChartExample(),
           );
         },
       ),

@@ -1,0 +1,18 @@
+{
+    "minimum" : 0,
+    "maximum" : 10,
+    "data" : [
+      {
+        "name": "temperature",
+        "value": 2
+      },
+      {
+        "name": "wind speed",
+        "value": 5
+      },
+    {
+            "name" : "some kind of power",
+            "value" : 10
+        }
+    ]
+}
